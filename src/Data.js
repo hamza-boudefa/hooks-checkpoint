@@ -1,6 +1,6 @@
 export const Data = [
     {
-        id: Math.random(),
+        id: 1,
         title: "Her",
         rate: 4,
         description:
@@ -10,7 +10,7 @@ export const Data = [
         trailer: "https://www.youtube.com/embed/6QRvTv_tpw0",
       },
       {
-        id: Math.random(),
+        id: 2,
         title: "The Lobster",
         rate: 3,
         description:
@@ -20,7 +20,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/vU29VfayDMw",
       },
       {
-        id: Math.random(),
+        id: 3,
         title: "The Pianist",
         rate: 5,
         description:
@@ -30,7 +30,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/BFwGqLa_oAo",
         },
       {
-        id: Math.random(),
+        id: 4,
         title: "Avengers: Endgame",
         rate: 1,
         description:
@@ -40,7 +40,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/TcMBFSGVi1c",
       },
       {
-        id: Math.random(),
+        id: 5,
         title: "Gangs of New York",
         rate: 3,
         description:
@@ -50,7 +50,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/qHVUPri5tjA",
       },
       {
-        id: Math.random(),
+        id: 6,
         title: "Inheritance",
         rate: 3,
         description:
@@ -60,7 +60,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/bkaWQ5HlE5U",
       },
       {
-        id: Math.random(),
+        id: 7,
         title: "The Fountain",
         rate: 4,
         description:
@@ -70,7 +70,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/m8IlyFCbNZg",
       },
       {
-        id: Math.random(),
+        id: 8,
         title: "Spotlight",
         rate: 4,
         description:
@@ -80,7 +80,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/EwdCIpbTN5g",
       },
       {
-        id: Math.random(),
+        id: 9,
         title: "Avengers: Infinity War",
         rate: 1,
         description:
@@ -90,7 +90,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/6ZfuNTqbHE8",
       },
       {
-        id: Math.random(),
+        id: 10,
         title: "The Machinist",
         rate: 4,
         description:
@@ -100,7 +100,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/gxH8U_49QnU"
       },
       {
-        id: Math.random(),
+        id: 11,
         title: "Skyfall",
         rate: 1,
         description:
@@ -110,7 +110,7 @@ export const Data = [
         trailer:"https://www.youtube.com/embed/6kw1UVovByw",
       },
       {
-        id: Math.random(),
+        id: 12,
         title: "Parasite",
         rate: 3,
         description:

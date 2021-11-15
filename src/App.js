@@ -4,6 +4,8 @@ import './App.css';
 import MovieList from './components/MovieList'
 import NavBar from './components/NavBar';
 import AddMovie from './components/AddMovie'
+import { Route, Switch} from 'react-router';
+import Trailer from './components/Trailer'
 
 
 function App() {
@@ -24,9 +26,15 @@ function App() {
       }
   return (
     <div className="App">
-      <NavBar farkes={searchMovie}  nejma={rateMovie} />
+     
+        <Switch>
+          <Route exact path ="/" render= {()=><div>  <NavBar farkes={searchMovie}  nejma={rateMovie} />
       <MovieList movies={movies} search={search} rating={rating} />
-      <AddMovie add={add}/>
+      <AddMovie add={add}/> </div> } />
+      <Route path="/movie/:id" render={()=> <Trailer movies={movies}  />} />
+        </Switch>
+        
+     
     </div>
   );
 }
